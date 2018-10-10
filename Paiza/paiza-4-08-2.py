@@ -21,10 +21,13 @@
 # おみくじプログラム
 
 import random
-line = input().rstrip()
+line = ["大吉","中吉","吉","凶"]
+print(line)
+
+num = random.randint(0,3)
+print(line[num])
 
 # 今回は自力で全部書いてみよう！
-
 # カンマで分割して、リストに代入
 # リストの要素数を変数に代入
 # リストの中身を出力
