@@ -21,7 +21,7 @@
 # おみくじプログラム
 
 import random
-line = ["大吉","中吉","吉","凶"]
+line = input().rstrip().split(",")
 print(line)
 
 num = random.randint(0,3)
